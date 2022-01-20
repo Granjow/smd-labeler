@@ -1,0 +1,40 @@
+{
+  "name": "smd-labeler",
+  "version": "0.1.0",
+  "description": "Generates labels for SMD part boxes",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src/*",
+    "templates/*.svg",
+    "symbols/*.svg",
+    "README.md",
+    "doc/"
+  ],
+  "scripts": {
+    "lint": "eslint -c .eslintrc.js \"src/**\" \"spec/**\" --ignore-pattern \"src/public\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Granjow/smd-labeler.git"
+  },
+  "keywords": [
+    "smd",
+    "label",
+    "boxes"
+  ],
+  "author": "Simon A. Eugster <simon.eu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Granjow/smd-labeler/issues"
+  },
+  "homepage": "https://github.com/Granjow/smd-labeler#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "typescript": "^4.5.4"
+  }
+}

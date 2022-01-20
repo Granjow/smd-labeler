@@ -4,7 +4,7 @@ export class Sym {
     }
 
     static d( type: 'Sc' | 'Si', i: number, u: number, vf: number, mfr: string ): string {
-        return `D-${type} Diode ${u} V\n${i} A ${vf} Vf\n${mfr}`
+        return `D-${type} Diode ${u} V\n${i} A ${vf} Vf\n${mfr}`;
     }
 
     static r( r: string, p: number, prec: number, u: number | undefined, mfr: string ): string {
@@ -26,14 +26,14 @@ export class Sym {
     }
 
     static fet( type: 'N' | 'P', id: number, u: number, vgs: number, rds: number, mfr: string ): string {
-        return `FET-${type} FET ${type} ${u} V\n${vgs} Vgs ${rds} mΩ\n${mfr}\n${id} A`
+        return `FET-${type} FET ${type} ${u} V\n${vgs} Vgs ${rds} mΩ\n${mfr}\n${id} A`;
     }
 
     static ic( name: string, desc: string, mfr: string, icPackage: string ): string {
-        return `IC ${name}\n${desc}\n${mfr}\n${icPackage}`
+        return `IC ${name}\n${desc}\n${mfr}\n${icPackage}`;
     }
 
-    private static toPrettyNumber = ( nr: number ): string => {
+    private static toPrettyNumber( nr: number ): string {
         if ( nr === .5 ) return '½';
         if ( nr === 1 / 3 ) return '⅓';
         if ( nr === .25 ) return '¼';
@@ -41,7 +41,7 @@ export class Sym {
         return nr.toString( 10 );
     }
 
-    private static addSymbol = ( nrWithUnit: string, symbol: string ): string => {
+    private static addSymbol( nrWithUnit: string, symbol: string ): string {
         const match = /([0-9.]+)(\D+)?/.exec( nrWithUnit );
         const number = match ? match[ 1 ] : nrWithUnit;
         const unit = match ? match[ 2 ] ?? '' : '';

@@ -110,7 +110,7 @@ export class SmdLabeler {
 
     private entry( text: string, x: number, y: number ): string {
         let labelSymbol = '';
-        for ( let symbol of symbols ) {
+        for ( const symbol of symbols ) {
             if ( symbol.applies( text ) ) {
                 labelSymbol = symbol.templateAt( this.labelWidth - 3, this.labelHeight - 3 );
                 text = symbol.adjustText( text );

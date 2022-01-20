@@ -12,8 +12,8 @@
     "doc/"
   ],
   "scripts": {
-    "lint": "eslint -c .eslintrc.js \"src/**\" \"spec/**\" --ignore-pattern \"src/public\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint -c .eslintrc.js \"src/**\"",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

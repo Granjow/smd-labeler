@@ -23,23 +23,23 @@ export class Table {
         this.rows = Math.floor( h / dy );
     }
 
-    next() {
+    next(): void {
         this._index++;
     }
 
-    get col() {
+    get col(): number {
         return ( this._index % this.cols );
     }
 
-    get row() {
+    get row(): number {
         return Math.floor( this._index / this.cols );
     }
 
-    get x() {
+    get x(): number {
         return this.x0 + this.col * this.dx;
     }
 
-    get y() {
+    get y(): number {
         return this.y0 + this.row * this.dy;
     }
 }

@@ -44,7 +44,8 @@ labeler.saveSvg( data, 'output.svg' );
 
 ## Changelog
 
-* v0.1.0 (2022-01-020): Initial release
+* v0.2.0 (2022-02-01): Add NPN, PNP, Darlington symbols and subscript support
+* v0.1.0 (2022-01-20): Initial release
 
 [ww-esd1]: https://www.reichelt.com/ch/de/esd-smd-klappbox-16-x-12-x-15-mm-deckel-schwarz-esd-box-1-sw-sw-p60405.html
 [ss3]: https://github.com/adobe-fonts/source-sans

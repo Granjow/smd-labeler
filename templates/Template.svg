@@ -23,18 +23,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0986052"
-     inkscape:cx="148.16217"
-     inkscape:cy="39.69329"
+     inkscape:zoom="35.056716"
+     inkscape:cx="4.9517385"
+     inkscape:cy="6.9500122"
      inkscape:document-units="mm"
-     inkscape:current-layer="template1"
+     inkscape:current-layer="layer12"
      inkscape:document-rotation="0"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid10"
@@ -68,7 +70,7 @@
      inkscape:label="LabelSmall"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:none">
     <g
        id="template1">
       <rect
@@ -89,7 +91,7 @@
          y="0" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.44479px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;opacity:1;vector-effect:none;fill:#2b2e34;fill-opacity:1;stroke:none;stroke-width:0.0990016;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.44479px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;opacity:1;vector-effect:none;fill:#2b2e34;fill-opacity:1;stroke:none;stroke-width:0.0990016;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
          x="1.0001361"
          y="3.3945632"
          id="text885"><tspan
@@ -97,39 +99,39 @@
            id="tspan883"
            x="1.0001361"
            y="3.3945632"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.44478981px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;vector-effect:none;fill:#2b2e34;fill-opacity:1;stroke:none;stroke-width:0.0990016;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;">LINE1</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.44479px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;vector-effect:none;fill:#2b2e34;fill-opacity:1;stroke:none;stroke-width:0.0990016;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">LINE1</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="1.3287144"
          y="10.207392"
          id="text889"><tspan
            sodipodi:role="line"
            x="1.3287144"
            y="10.207392"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388998px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            id="tspan887">LINE3</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="1.3643838"
          y="7.7567716"
          id="text893"><tspan
            sodipodi:role="line"
            x="1.3643838"
            y="7.7567716"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666995px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            id="tspan891">LINE2</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:1.25;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="1.3287144"
          y="12.211913"
          id="text33845"><tspan
            sodipodi:role="line"
            x="1.3287144"
            y="12.211913"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388998px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            id="tspan33843">LINE4</tspan></text>
     </g>
     <g
@@ -320,6 +322,122 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="BJT-NPN"
+     style="display:none">
+    <g
+       id="symBjtNPN">
+      <rect
+         style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f0f4eb;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect10867-8-9-6-5-6-6"
+         width="3"
+         height="3"
+         x="0"
+         y="-1.7763568e-15" />
+      <circle
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path1940"
+         cx="1.5"
+         cy="1.5"
+         r="1" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="M 1,0.8792433 V 2.1509459"
+         id="path1942"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path1965"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="M 1,1.5 H 0.25 M 1,1.75 1.75,2.25 v 0.5 M 1,1.25 1.75,0.75 v -0.5" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.410805px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 1.5549123,1.8692551 1.7533324,2.2565028 1.3250056,2.1799045 Z"
+         id="path1973"
+         inkscape:transform-center-x="0.040678512"
+         inkscape:transform-center-y="-0.057110881" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="BJT-PNP">
+    <g
+       id="symBjtPNP">
+      <rect
+         style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f0f4eb;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect10867-8-9-6-5-6-6-2"
+         width="3"
+         height="3"
+         x="0"
+         y="-1.7763568e-15" />
+      <circle
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1940-0"
+         cx="1.5"
+         cy="1.5"
+         r="1" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 1,0.8792433 V 2.1509459"
+         id="path1942-2"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path1965-3"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 1,1.5 H 0.25 M 1,1.75 1.75,2.25 v 0.5 M 1,1.25 1.75,0.75 v -0.5" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.410805px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 1.7526136,0.97390626 1.3244109,1.0511969 1.5222047,0.66362914 Z"
+         id="path1973-7"
+         inkscape:transform-center-x="-0.033055338"
+         inkscape:transform-center-y="-0.067470201" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Darlington-NPN"
+     style="display:none">
+    <g
+       id="symDarlingtonNPN">
+      <rect
+         style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f0f4eb;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect10867-8-9-6-5-6"
+         width="3"
+         height="3"
+         x="0"
+         y="-1.7763568e-15" />
+      <circle
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1763"
+         cx="1"
+         cy="1.25"
+         r="0.5" />
+      <path
+         id="path1818"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 1,1.25 H 0.25 m 0,-0.75 h 2 v 1 L 2,1.75 v 0.5 L 2.25,2.5 V 2.75 M 2,2 H 1.25 V 1.75 L 1,1.5 V 1 L 1.25,0.75 V 0.5"
+         sodipodi:nodetypes="cccccccccccccccc" />
+      <circle
+         style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="path1763-9"
+         cx="2"
+         cy="2"
+         r="0.5" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0957107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 2.2335134,2.4760948 1.9734282,2.3977917 2.1617471,2.2148097 Z"
+         id="path18829-9-5"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0957107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 1.2406607,1.7233163 0.9805755,1.6450132 1.1688944,1.4620312 Z"
+         id="path1879"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="C"
      style="display:none">
@@ -375,7 +493,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="IC">
+     inkscape:label="IC"
+     style="display:none">
     <g
        id="gIC">
       <rect
@@ -387,7 +506,7 @@
          y="-1.7763568e-15" />
       <path
          id="path120"
-         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 2,2.25 V 2 M 1.5,2.25 V 2 M 1,2.25 V 2 M 2,1 V 0.75 M 1.5,1 V 0.75 M 1,1 V 0.75 M 0.75,1 v 1 h 1.5 V 1 Z" />
     </g>
   </g>

@@ -1,0 +1,37 @@
+<g
+        id="symDarlingtonNPN">
+    <rect
+            style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f0f4eb;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+            id="rect10867-8-9-6-5-6"
+            width="3"
+            height="3"
+            x="0"
+            y="-1.7763568e-15" />
+    <circle
+            style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+            id="path1763"
+            cx="1"
+            cy="1.25"
+            r="0.5" />
+    <path
+            id="path1818"
+            style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+            d="M 1,1.25 H 0.25 m 0,-0.75 h 2 v 1 L 2,1.75 v 0.5 L 2.25,2.5 V 2.75 M 2,2 H 1.25 V 1.75 L 1,1.5 V 1 L 1.25,0.75 V 0.5"
+            sodipodi:nodetypes="cccccccccccccccc" />
+    <circle
+            style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+            id="path1763-9"
+            cx="2"
+            cy="2"
+            r="0.5" />
+    <path
+            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0957107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 2.2335134,2.4760948 1.9734282,2.3977917 2.1617471,2.2148097 Z"
+            id="path18829-9-5"
+            sodipodi:nodetypes="cccc" />
+    <path
+            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0957107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 1.2406607,1.7233163 0.9805755,1.6450132 1.1688944,1.4620312 Z"
+            id="path1879"
+            sodipodi:nodetypes="cccc" />
+</g>

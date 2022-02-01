@@ -4,7 +4,7 @@ export class Sym {
     }
 
     static d( type: 'Sc' | 'Si', i: number, u: number, vf: number, mfr: string ): string {
-        return `D-${type} Diode ${u} V\n${i} A ${vf} Vf\n${mfr}`;
+        return `D-${type} Diode ${u} V\n${i} A ${vf} V(sub,f)\n${mfr}`;
     }
 
     static r( r: string, p: number, prec: number, u: number | undefined, mfr: string ): string {
@@ -31,6 +31,22 @@ export class Sym {
 
     static ic( name: string, desc: string, mfr: string, icPackage: string ): string {
         return `IC ${name}\n${desc}\n${mfr}\n${icPackage}`;
+    }
+
+    static bjt( type: 'Darlington-NPN' | 'PNP' | 'NPN', name: string, hfe: number, vceo: number, ic: number, mfr: string ): string {
+        let sym = '';
+        switch ( type ) {
+            case 'Darlington-NPN':
+                sym = 'Darlington-NPN';
+                break;
+            case 'NPN':
+                sym = 'BJT-NPN';
+                break;
+            case 'PNP':
+                sym = 'BJT-PNP';
+                break;
+        }
+        return `${sym} ${name}\n${vceo} V(sub,ceo) ${ic} I(sub,c)\n${mfr}\n${hfe} h(sub,fe)`;
     }
 
     private static toPrettyNumber( nr: number ): string {

@@ -14,6 +14,9 @@ const data: string[] = [
     Sym.fet( 'P', 1.2, 20, 0.45, 210, 'PM160UP,215' ),
     Sym.d( 'Si', 1, 400, 1.1, 'FM4004-W' ),
     Sym.d( 'Sc', .2, 30, .5, 'BAT54T1G' ),
+    Sym.bjt( 'Darlington-NPN', 'Darlington N', 5000, 1, .5, 'FMMT614AT' ),
+    Sym.bjt( 'NPN', 'NPN', 150, 1, .5, 'FMMT614AT' ),
+    Sym.bjt( 'PNP', 'PNP', 150, 1, .5, 'FMMT614AT' ),
 ];
 
 

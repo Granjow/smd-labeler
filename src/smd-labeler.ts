@@ -12,6 +12,9 @@ const symbols: Symbol[] = [
     new Symbol( 'LED' ),
     new Symbol( 'R' ),
     new Symbol( 'IC' ),
+    new Symbol( 'Darlington-NPN' ),
+    new Symbol( 'BJT-NPN' ),
+    new Symbol( 'BJT-PNP' ),
 ];
 
 export interface SmdLabelerArgs {
@@ -116,7 +119,8 @@ export class SmdLabeler {
                 text = symbol.adjustText( text );
             }
         }
-        const lines = text.split( '\n' );
+        const lines = text.split( '\n' )
+            .map( l => this.formatText( l ) );
         return this.smallTemplate
             .replace( 'LINE1', lines[ 0 ] || ' ' )
             .replace( 'LINE2', lines[ 1 ] || ' ' )
@@ -138,6 +142,13 @@ export class SmdLabeler {
 
     private assembleSvg( labels: string[] ): string {
         return this.mainTemplate.replace( '</g>', labels.join( '\n' ) + '</g>' );
+    }
+
+    private formatText( text: string ): string {
+        const reSub = /\(sub,([^)]+)\)/g;
+        return text.replace( reSub, ( s, t ) => {
+            return '<svg:tspan style="font-size: 66%; dy: .33">' + t + '</svg:tspan>';
+        } );
     }
 
 }

@@ -7,7 +7,7 @@ export class Sym {
         return `D-${type} Diode ${u} V\n${i} A ${vf} V(sub,f)\n${mfr}`;
     }
 
-    static r( r: string, p: number, prec: number, u: number | undefined, mfr: string ): string {
+    static r( r: string, p: number, prec: number, u: number | undefined, mfr: string, size?: string ): string {
         const match = /([0-9.]+)(\D+)?/.exec( r );
         const number = match ? match[ 1 ] : r;
         const unit = match ? match[ 2 ] : '';
@@ -16,7 +16,7 @@ export class Sym {
         const precText = prec ? `${prec} %` : '';
         const pText = Sym.toPrettyNumber( p );
 
-        return `R ${this.addSymbol( r, 'Ω' )}  ${pText} W\n${precText} ${uText}\n${mfr}`;
+        return `R ${this.addSymbol( r, 'Ω' )}  ${pText} W\n${precText} ${uText}\n${mfr}\n${size ?? ''}`;
     }
 
     static c( c: string, u: number, tol: number | undefined, prec: string, mfr: string ): string {

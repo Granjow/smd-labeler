@@ -44,6 +44,7 @@ labeler.saveSvg( data, 'output.svg' );
 
 ## Changelog
 
+* v0.3.0 (2022-10-21): Add size option (0805 etc.) to resistors
 * v0.2.0 (2022-02-01): Add NPN, PNP, Darlington symbols and subscript support
 * v0.1.0 (2022-01-20): Initial release
 

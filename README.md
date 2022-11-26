@@ -13,7 +13,7 @@ When printed and cut, the result may look like this:
 Requires [Source Sans 3][ss3] installed on the system.
 
 ```ts
-import { Sym } from '../src';
+import { Sym, SmdLabelerArgs } from '../src';
 import SmdLabeler from '../src';
 
 const data = [
@@ -38,12 +38,17 @@ const data = [
     Sym.d( 'Sc', .2, 30, .5, 'BAT54T1G' ),
 ];
 
-const labeler = new SmdLabeler();
+const options : SmdLabelerArgs = {
+    cutMarks: true,
+};
+const labeler = new SmdLabeler( options );
 labeler.saveSvg( data, 'output.svg' );
 ```
 
 ## Changelog
 
+* Upcoming
+  * Do not add cut marks by default, only when specified via options
 * v0.3.0 (2022-10-21): Add size option (0805 etc.) to resistors
 * v0.2.0 (2022-02-01): Add NPN, PNP, Darlington symbols and subscript support
 * v0.1.0 (2022-01-20): Initial release

@@ -1,5 +1,6 @@
 import { Sym } from '../src';
 import SmdLabeler from '../src';
+import { SmdLabelerArgs } from '../src';
 
 
 const data: string[] = [
@@ -19,6 +20,8 @@ const data: string[] = [
     Sym.bjt( 'PNP', 'PNP', 150, 1, .5, 'FMMT614AT' ),
 ];
 
-
-const labeler = new SmdLabeler();
+const options : SmdLabelerArgs = {
+    cutMarks: true,
+};
+const labeler = new SmdLabeler( options );
 labeler.saveSvg( data, 'output.svg' );

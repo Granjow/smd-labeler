@@ -22,6 +22,7 @@ export interface SmdLabelerArgs {
     pageHeight?: number;
     labelWidth?: number;
     labelHeight?: number;
+    cutMarks?: boolean;
 }
 
 /**
@@ -36,6 +37,7 @@ export class SmdLabeler {
     public readonly labelWidth: number;
     public readonly labelHeight: number;
 
+    private readonly addCutMarks: boolean;
     private readonly mainTemplate: string;
     private readonly smallTemplate: string;
     private readonly horizontalTickTemplate: string;
@@ -46,6 +48,7 @@ export class SmdLabeler {
         this.pageHeight = args?.pageHeight ?? 297;
         this.labelWidth = args?.labelWidth ?? 16;
         this.labelHeight = args?.labelHeight ?? 13;
+        this.addCutMarks = args?.cutMarks ?? false;
 
         this.mainTemplate = fs.readFileSync( path.join( __dirname, '../..', 'templates/TemplateMain.svg' ), {
             encoding: 'utf8',
@@ -87,16 +90,18 @@ export class SmdLabeler {
             labels.push( label );
         }
 
-        for ( let r = 0; r <= table.rows; r++ ) {
-            const y = table.y0 + r * table.dy;
-            labels.push( this.horizontalCut( table.x0 - 1, y ) );
-            labels.push( this.horizontalCut( table.x0 + ( table.cols * table.dx ), y ) );
-        }
+        if ( this.addCutMarks ) {
+            for ( let r = 0; r <= table.rows; r++ ) {
+                const y = table.y0 + r * table.dy;
+                labels.push( this.horizontalCut( table.x0 - 1, y ) );
+                labels.push( this.horizontalCut( table.x0 + ( table.cols * table.dx ), y ) );
+            }
 
-        for ( let c = 0; c <= table.cols; c++ ) {
-            const x = table.x0 + c * table.dx;
-            labels.push( this.verticalCut( x, table.y0 - 1 ) );
-            labels.push( this.verticalCut( x, table.y0 + ( table.rows * table.dy ) ) );
+            for ( let c = 0; c <= table.cols; c++ ) {
+                const x = table.x0 + c * table.dx;
+                labels.push( this.verticalCut( x, table.y0 - 1 ) );
+                labels.push( this.verticalCut( x, table.y0 + ( table.rows * table.dy ) ) );
+            }
         }
 
         return labels;
